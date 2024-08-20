@@ -9,7 +9,7 @@ const Inicio: React.FC = () => {
     
     return (
         <div className='ContenedorInicio'>
-            <h2>Hola {almacenVariables?.usuario?.nombre}</h2>
+            <h3>Hola {almacenVariables?.usuario?.nombre}</h3>
             <img src={logo} alt="Logo iglesia" className="logo" />
         </div>
     );
