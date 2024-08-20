@@ -6,7 +6,7 @@ import logo from '../../Imagenes/logo.jpeg';
 const Inicio: React.FC = () => {
     return (
         <div className='ContenedorInicio'>
-            <h1>Hola soy inicio</h1>
+            <h1>Hola vamos a iniciar</h1>
             
             <Link to="/registro">
                 <button className="botonRegistro">Inicio de sesion</button>
