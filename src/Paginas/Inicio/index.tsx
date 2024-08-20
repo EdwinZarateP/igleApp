@@ -9,7 +9,7 @@ const Inicio: React.FC = () => {
             <h1>Hola soy inicio</h1>
             
             <Link to="/registro">
-                <button className="botonRegistro">Ir a Registro</button>
+                <button className="botonRegistro">Inicio de sesion</button>
             </Link>
 
             <img src={logo} alt="Logo iglesia" className="logo" />
