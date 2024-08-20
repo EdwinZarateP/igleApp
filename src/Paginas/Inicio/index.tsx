@@ -1,17 +1,15 @@
-import React from 'react';
-import { Link } from 'react-router-dom'; // Importa el componente Link
+// import React, { useContext, useEffect, useRef } from 'react';
 import './estilos.css';
-import logo from '../../Imagenes/logo.jpeg'; 
+import logo from '../../Imagenes/logo.jpeg';
+import { useContext } from 'react'
+import { ContextoApp } from '../../Contexto/index'
 
 const Inicio: React.FC = () => {
+    const almacenVariables = useContext(ContextoApp);
+    
     return (
         <div className='ContenedorInicio'>
-            <h1>Hola vamos a iniciar</h1>
-            
-            <Link to="/registro">
-                <button className="botonRegistro">Inicio de sesion</button>
-            </Link>
-
+            <h2>Hola {almacenVariables?.usuario?.nombre}</h2>
             <img src={logo} alt="Logo iglesia" className="logo" />
         </div>
     );

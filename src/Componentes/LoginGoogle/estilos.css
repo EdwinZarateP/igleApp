@@ -1,6 +1,5 @@
-.contenedor_registro{
+.contenedor_login_Google{
     display: flex;
-    height: 100vh;
     flex-direction: column;
     align-items: center;
     justify-content: center;
