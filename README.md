@@ -5,8 +5,6 @@ Esta aplicación está diseñada para ayudar a las iglesias a gestionar y seguir
 
 ## Características
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
 - Seguimiento de Asistencia: Registra y monitorea la asistencia de las personas durante los servicios y eventos de la iglesia.
 - Monitoreo de Crecimiento: Rastrea el crecimiento y desarrollo espiritual de cada miembro, permitiendo a los líderes brindar orientación y apoyo personalizado.
 - Informes Detallados: Genera informes sobre las tendencias de asistencia y métricas de crecimiento para obtener información sobre el estado de la congregación.
