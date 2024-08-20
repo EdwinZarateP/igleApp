@@ -6,7 +6,7 @@ import NoEncontrado from '../NoEncontrado/index';
 
 const App: React.FC = () => {
   return (
-    <Router basename="/igleapp">
+    <Router basename="/igleApp">
       <Routes>
         <Route path="/" element={<Inicio />} />        
         <Route path="/registro" element={<Registro />} />
