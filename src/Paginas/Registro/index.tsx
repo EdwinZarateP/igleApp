@@ -4,6 +4,7 @@ import GoogleRegistro from "../../Componentes/LoginGoogle";
 import "./estilos.css";
 import { useContext } from "react";
 import { ContextoApp } from "../../Contexto/index";
+import logo from "../../Imagenes/logo.png";
 
 const Registro: React.FC = () => {
   const navigate = useNavigate();
@@ -44,8 +45,9 @@ const Registro: React.FC = () => {
 
   return (
     <div className="contenedor_registro">
-      <GoogleRegistro onLoginSuccess={ingresoExitoso} />
-      <h3>O inicia sesión con tu correo electrónico</h3>
+      <img src={logo} alt="Logo iglesia" className="logo" />
+      <h1 className="titulo">IglesiApp</h1>
+      <h3>Registrate con tu correo electrónico</h3>
       <form onSubmit={handleEmailLogin} className="formulario_login">
         <div className="input_group">
           <label htmlFor="email">Correo Electrónico</label>
@@ -68,9 +70,10 @@ const Registro: React.FC = () => {
           />
         </div>
         <button type="submit" className="login_button">
-          Iniciar Sesión
+          Registrarme
         </button>
       </form>
+      <GoogleRegistro onLoginSuccess={ingresoExitoso} />
     </div>
   );
 };

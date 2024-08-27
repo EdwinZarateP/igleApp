@@ -1,6 +1,6 @@
 // import React, { useContext, useEffect, useRef } from 'react';
 import "./estilos.css";
-import logo from "../../Imagenes/logo.jpeg";
+import logo from "../../Imagenes/logo.png";
 import { useContext } from "react";
 import { ContextoApp } from "../../Contexto/index";
 
