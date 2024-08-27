@@ -29,7 +29,9 @@ const GoogleRegistro: React.FC<GoogleRegistroProps> = ({ onLoginSuccess }) => {
 
   return (
     <div className="contenedor_login_Google">
-      <h3>O regístrate con tu cuenta de Google</h3>
+      <h3 className="subtitulo_login_Google">
+        O regístrate con tu cuenta de Google
+      </h3>
       <span>
         <GoogleLogin
           onSuccess={handleSuccess}

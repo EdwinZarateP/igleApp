@@ -46,8 +46,10 @@ const Registro: React.FC = () => {
   return (
     <div className="contenedor_registro">
       <img src={logo} alt="Logo iglesia" className="logo" />
-      <h1 className="titulo">IglesiApp</h1>
-      <h3>Registrate con tu correo electrónico</h3>
+      <h1 className="titulo">IgleApp</h1>
+      <h3 className="sub_titulo_registro">
+        Registrate con tu correo electrónico
+      </h3>
       <form onSubmit={handleEmailLogin} className="formulario_login">
         <div className="input_group">
           <label htmlFor="email">Correo Electrónico</label>
