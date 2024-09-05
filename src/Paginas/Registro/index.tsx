@@ -52,7 +52,7 @@ const Registro: React.FC = () => {
       </h3>
       <form onSubmit={handleEmailLogin} className="formulario_login">
         <div className="input_group">
-          <label htmlFor="email">Correo Electrónico</label>
+          <label htmlFor="email">Correo</label>
           <input
             type="email"
             id="email"
