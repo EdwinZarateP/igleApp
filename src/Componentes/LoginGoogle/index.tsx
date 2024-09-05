@@ -27,25 +27,6 @@ const GoogleRegistro: React.FC<GoogleRegistroProps> = ({ onLoginSuccess }) => {
     }
   };
 
-<<<<<<< HEAD
-            onLoginSuccess({ nombre: nombreUsuario, email: emailUsuario, userId });
-        } else {
-            console.log('No se recibió el credencial');
-        }
-    };
-
-    return (
-        <div className='contenedor_login_Google'>
-            <h3>Regístrate con tu cuenta de Google</h3>
-            <GoogleLogin
-                onSuccess={handleSuccess}
-                onError={() => {
-                    console.log('Login Failed');
-                }}
-            />
-        </div>
-    );
-=======
   return (
     <div className="contenedor_login_Google">
       <h3 className="subtitulo_login_Google">
@@ -61,7 +42,6 @@ const GoogleRegistro: React.FC<GoogleRegistroProps> = ({ onLoginSuccess }) => {
       </span>
     </div>
   );
->>>>>>> ramaChris
 };
 
 export default GoogleRegistro;

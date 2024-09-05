@@ -12,25 +12,12 @@ const Registro: React.FC = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-<<<<<<< HEAD
-    const ingresoExitoso = (usuario: { nombre: string, email: string, userId: string }) => {
-        console.log("Usuario logueado con éxito:", usuario.nombre)
-        
-        // Guardar el objeto usuario completo en el contexto
-        if (almacenVariables) {
-            almacenVariables.setUsuario(usuario);
-        }
-        // Redirigir al usuario a /Inicio
-        navigate('/Inicio');
-    };
-=======
   const ingresoExitoso = (usuario: {
     nombre: string;
     email: string;
     userId: string;
   }) => {
     console.log("Usuario logueado con éxito:", usuario.nombre);
->>>>>>> ramaChris
 
     // Guardar el objeto usuario completo en el contexto
     if (almacenVariables) {
@@ -65,7 +52,7 @@ const Registro: React.FC = () => {
       </h3>
       <form onSubmit={handleEmailLogin} className="formulario_login">
         <div className="input_group">
-          <label htmlFor="email">Correo Electrónico</label>
+          <label htmlFor="email">Correo</label>
           <input
             type="email"
             id="email"
