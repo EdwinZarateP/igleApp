@@ -12,7 +12,7 @@ const Inicio: React.FC = () => {
             <h3>Hola {almacenVariables?.usuario?.nombre}</h3>
             <img src={logo} alt="Logo iglesia" className="logo" />
         </div>
-    );
+    )
 };
 
 export default Inicio;

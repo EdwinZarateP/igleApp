@@ -25,14 +25,12 @@ const GoogleRegistro: React.FC<GoogleRegistroProps> = ({ onLoginSuccess }) => {
     return (
         <div className='contenedor_login_Google'>
             <h3>Regístrate con tu cuenta de Google</h3>
-            <span>
-                <GoogleLogin
-                    onSuccess={handleSuccess}
-                    onError={() => {
-                        console.log('Login Failed');
-                    }}
-                />
-            </span>
+            <GoogleLogin
+                onSuccess={handleSuccess}
+                onError={() => {
+                    console.log('Login Failed');
+                }}
+            />
         </div>
     );
 };

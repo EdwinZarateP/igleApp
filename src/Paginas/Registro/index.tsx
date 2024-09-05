@@ -12,7 +12,7 @@ const Registro: React.FC = () => {
     const [password, setPassword] = useState('');
 
     const ingresoExitoso = (usuario: { nombre: string, email: string, userId: string }) => {
-        console.log("Usuario logueado con éxito:", usuario.nombre);
+        console.log("Usuario logueado con éxito:", usuario.nombre)
         
         // Guardar el objeto usuario completo en el contexto
         if (almacenVariables) {
