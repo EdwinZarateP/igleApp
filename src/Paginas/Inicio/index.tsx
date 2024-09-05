@@ -5,16 +5,6 @@ import { useContext } from "react";
 import { ContextoApp } from "../../Contexto/index";
 
 const Inicio: React.FC = () => {
-<<<<<<< HEAD
-    const almacenVariables = useContext(ContextoApp);
-    
-    return (
-        <div className='ContenedorInicio'>
-            <h3>Hola {almacenVariables?.usuario?.nombre}</h3>
-            <img src={logo} alt="Logo iglesia" className="logo" />
-        </div>
-    )
-=======
   const almacenVariables = useContext(ContextoApp);
 
   return (
@@ -24,7 +14,6 @@ const Inicio: React.FC = () => {
       <h3>Bienvenido a IgleApp</h3>
     </div>
   );
->>>>>>> ramaChris
 };
 
 export default Inicio;
